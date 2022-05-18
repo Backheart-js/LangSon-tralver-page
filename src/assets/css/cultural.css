@@ -1,0 +1,25 @@
+.cultural-main {
+    width: 70%;
+    margin: auto;
+}
+
+.cultural-title {
+    text-align: center;
+}
+
+.cultural-title > h1 {
+    font-size: 48px;
+    width: 80%;
+    margin: auto;
+    font-family: inherit;
+    margin-bottom: 24px;
+}
+.cultural-info {
+    color: rgb(132, 132, 132);
+    transform: uppercase;
+}
+
+.cultural-content {
+    margin-top: 40px;
+    color: #333;
+}

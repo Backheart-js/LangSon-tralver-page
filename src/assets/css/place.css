@@ -1,0 +1,19 @@
+.place-intro {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 90px;
+    color: rgb(230, 228, 228);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content__wrapper {
+    margin-bottom: 120px;
+}
+.place__title {
+
+}
+.place__desc {
+    color: #666;
+}

@@ -1,0 +1,55 @@
+.food-main {
+    margin-top: 100px;
+}
+
+.food-category {
+    margin-top: 61.5px;
+    position: fixed;
+    z-index: 3;
+    background-color: transparent;
+}
+.food__category-title {
+    position: relative;
+    font-size: 28px;
+    font-weight: normal;
+    color: #333;
+}
+.food__category-title::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: rgb(165, 165, 165);
+    bottom: -10px;
+    left: 0;
+}
+
+.food__category-list {
+    list-style: none;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+.food__category-item {
+    line-height: 36px;
+}
+
+.food__category-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.food-content {
+    margin-left: 330px;
+    margin-top: 96px;
+}
+
+.food__textzone-wrapper {
+    margin-bottom: 100px;
+}
+.food__img-subtitle {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+}
