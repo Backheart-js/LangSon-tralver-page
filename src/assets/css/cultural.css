@@ -1,4 +1,6 @@
 .cultural-main {
+    max-width: 1000px;
+    min-width: 26/0px;
     width: 70%;
     margin: auto;
 }

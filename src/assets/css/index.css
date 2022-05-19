@@ -74,6 +74,8 @@ i {
 .main-desc {
     margin: auto;
     width: 60%;
+    max-width: 1000px;
+    min-width: 350px;
     margin-bottom: 60px;
 }
 .main__desc-title {

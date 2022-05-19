@@ -1,20 +1,132 @@
 /*Smart phone nhỏ*/
 @media screen and (min-width: 240px){
-    
+    .menu-icon-on-mobile {
+        display: block;
+
+    }
+    .menu-icon-on-mobile > i {
+        color: #fff;
+        margin: 12px 0 12px 12px;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+
+    .slider {
+        display: none;
+    }
+    .category__list {
+        padding: 0;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    .food-content {
+        margin-left: 0;
+    }
+    .food-category {
+        display: none;
+    }
 }
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px){
-    
+
+    .place-intro {
+        padding: 12px 12px;
+        height: auto;
+    }
+
+    .category-item {
+        width: 160px;
+        margin-bottom: 24px;
+    }
+
+    .media__select-wrapper {
+        flex-direction: column;
+    }
+    .media__select-title {
+        margin-top: 12px;
+    }
+    .media__select-textzone {
+        margin-bottom: 32px;
+    }
+
+    .media__select-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-list {
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+    }
 }
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (min-width: 480px){
-    
+    .slider {
+        display: block;
+    }
+
+    .place-intro {
+        padding: 12px 50px;
+        height: 250px;
+    }
+
+
+    .footer-list {
+        margin-left: 0px;
+    }
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (min-width: 768px){
-    
+    .media__select-wrapper {
+        flex-direction: row;
+        margin-bottom: 32px;
+    }
+
+    .category-item {
+        width: 150px;
+    }
+
+    .food-category {
+        display: block;
+    }
+    .food-content {
+        margin-left: 150px;
+    }
+
 }
 /*Ipad ngang(1024 x 768)*/
 @media screen and (min-width: 1024px){
-  
+    .menu-icon-on-mobile {
+        display: none;
+    }
+    .menu-list {
+        display: flex;
+        flex-direction: row;
+    }
+    .media__select-img {
+        width: 400px;
+        height: 185px;
+    }
+
+    .category-item {
+        width: 250px;
+    }
+
+    .food-content {
+        margin-left: 330px;
+    }
+    
+    .footer-list {
+        margin: 40px;
+        text-align: left;
+    }
 }

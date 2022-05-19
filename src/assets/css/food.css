@@ -17,7 +17,7 @@
 .food__category-title::after {
     content: "";
     position: absolute;
-    width: 250px;
+    width: 80%;
     height: 2px;
     background-color: rgb(165, 165, 165);
     bottom: -10px;
