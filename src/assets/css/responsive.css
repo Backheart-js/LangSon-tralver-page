@@ -27,6 +27,10 @@
         width: 90%;
         margin: auto;
     }
+    .cultural-main {
+        width: auto;
+    }
+
     .food-content {
         margin-left: 0;
     }
@@ -95,6 +99,10 @@
         width: 150px;
     }
 
+    .cultural-main {
+        width: 85%;
+    }
+
     .food-category {
         display: block;
     }
@@ -119,6 +127,10 @@
 
     .category-item {
         width: 250px;
+    }
+
+    .cultural-main {
+        width: 70%;
     }
 
     .food-content {
